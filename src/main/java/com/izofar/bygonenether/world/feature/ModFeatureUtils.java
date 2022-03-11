@@ -9,7 +9,7 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.RandomBlockMa
 public class ModFeatureUtils {
 
 	public static void replaceBlackstoneBlobs() {
-		NetherFeatures.BLACKSTONE_BLOBS.config.replaceState = ModBlocks.COBBLED_BLACKSTONE.get().defaultBlockState();
+		NetherFeatures.BLACKSTONE_BLOBS.value().config.replaceState = ModBlocks.COBBLED_BLACKSTONE.get().defaultBlockState();
 	}
 	
 	public static void replaceBlackstoneInBastion() {
